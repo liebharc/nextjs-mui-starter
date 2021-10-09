@@ -1,0 +1,577 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A Subscribe Section renders 1`] = `
+<div>
+  <p>
+    Clone
+     
+    <a
+      href="https://github.com/liebharc/nextjs-mui-starter"
+    >
+      https://github.com/liebharc/nextjs-mui-starter
+    </a>
+     
+    to get started. It's free!
+  </p>
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-11lq3yg-MuiGrid-root{box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;width:100%;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}",
+      }
+    }
+    data-emotion="css 11lq3yg-MuiGrid-root"
+  />
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined undefined undefined  css-11lq3yg-MuiGrid-root"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-1mj1be7-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}@media (min-width:600px){.css-1mj1be7-MuiGrid-root{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}}@media (min-width:900px){.css-1mj1be7-MuiGrid-root{-webkit-flex-basis:66.666667%;-ms-flex-preferred-size:66.666667%;flex-basis:66.666667%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:66.666667%;}}",
+        }
+      }
+      data-emotion="css 1mj1be7-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-8 undefined undefined css-1mj1be7-MuiGrid-root"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1u3bzj6-MuiFormControl-root-MuiTextField-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:relative;min-width:0;padding:0;margin:0;border:0;vertical-align:top;}",
+          }
+        }
+        data-emotion="css 1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      />
+      <div
+        className="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "@-webkit-keyframes mui-auto-fill{from{display:block;}}@keyframes mui-auto-fill{from{display:block;}}@-webkit-keyframes mui-auto-fill-cancel{from{display:block;}}@keyframes mui-auto-fill-cancel{from{display:block;}}",
+            }
+          }
+          data-emotion="css-global 1prfaxn"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-1480iag-MuiInputBase-root-MuiInput-root{font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:1rem;line-height:1.4375em;letter-spacing:0.00938em;color:rgba(0, 0, 0, 0.87);box-sizing:border-box;position:relative;cursor:text;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;}.css-1480iag-MuiInputBase-root-MuiInput-root.Mui-disabled{color:rgba(0, 0, 0, 0.38);cursor:default;}label+.css-1480iag-MuiInputBase-root-MuiInput-root{margin-top:16px;}.css-1480iag-MuiInputBase-root-MuiInput-root:after{border-bottom:2px solid #1976d2;left:0;bottom:0;content:\\"\\";position:absolute;right:0;-webkit-transform:scaleX(0);-moz-transform:scaleX(0);-ms-transform:scaleX(0);transform:scaleX(0);-webkit-transition:-webkit-transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;transition:transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;pointer-events:none;}.css-1480iag-MuiInputBase-root-MuiInput-root.Mui-focused:after{-webkit-transform:scaleX(1);-moz-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1);}.css-1480iag-MuiInputBase-root-MuiInput-root.Mui-error:after{border-bottom-color:#d32f2f;-webkit-transform:scaleX(1);-moz-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1);}.css-1480iag-MuiInputBase-root-MuiInput-root:before{border-bottom:1px solid rgba(0, 0, 0, 0.42);left:0;bottom:0;content:\\"\\\\00a0\\";position:absolute;right:0;-webkit-transition:border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;pointer-events:none;}.css-1480iag-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before{border-bottom:2px solid rgba(0, 0, 0, 0.87);}@media (hover: none){.css-1480iag-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before{border-bottom:1px solid rgba(0, 0, 0, 0.42);}}.css-1480iag-MuiInputBase-root-MuiInput-root.Mui-disabled:before{border-bottom-style:dotted;}",
+            }
+          }
+          data-emotion="css 1480iag-MuiInputBase-root-MuiInput-root"
+        />
+        <div
+          className="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1480iag-MuiInputBase-root-MuiInput-root"
+          onClick={[Function]}
+        >
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1x51dt5-MuiInputBase-input-MuiInput-input{font:inherit;letter-spacing:inherit;color:currentColor;padding:4px 0 5px;border:0;box-sizing:content-box;background:none;height:1.4375em;margin:0;-webkit-tap-highlight-color:transparent;display:block;min-width:0;width:100%;-webkit-animation-name:mui-auto-fill-cancel;animation-name:mui-auto-fill-cancel;-webkit-animation-duration:10ms;animation-duration:10ms;}.css-1x51dt5-MuiInputBase-input-MuiInput-input::-webkit-input-placeholder{color:currentColor;opacity:0.42;-webkit-transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;}.css-1x51dt5-MuiInputBase-input-MuiInput-input::-moz-placeholder{color:currentColor;opacity:0.42;-webkit-transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;}.css-1x51dt5-MuiInputBase-input-MuiInput-input:-ms-input-placeholder{color:currentColor;opacity:0.42;-webkit-transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;}.css-1x51dt5-MuiInputBase-input-MuiInput-input::-ms-input-placeholder{color:currentColor;opacity:0.42;-webkit-transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;}.css-1x51dt5-MuiInputBase-input-MuiInput-input:focus{outline:0;}.css-1x51dt5-MuiInputBase-input-MuiInput-input:invalid{box-shadow:none;}.css-1x51dt5-MuiInputBase-input-MuiInput-input::-webkit-search-decoration{-webkit-appearance:none;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input::-webkit-input-placeholder{opacity:0!important;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input::-moz-placeholder{opacity:0!important;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input:-ms-input-placeholder{opacity:0!important;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input::-ms-input-placeholder{opacity:0!important;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus::-webkit-input-placeholder{opacity:0.42;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus::-moz-placeholder{opacity:0.42;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus:-ms-input-placeholder{opacity:0.42;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus::-ms-input-placeholder{opacity:0.42;}.css-1x51dt5-MuiInputBase-input-MuiInput-input.Mui-disabled{opacity:1;-webkit-text-fill-color:rgba(0, 0, 0, 0.38);}.css-1x51dt5-MuiInputBase-input-MuiInput-input:-webkit-autofill{-webkit-animation-duration:5000s;animation-duration:5000s;-webkit-animation-name:mui-auto-fill;animation-name:mui-auto-fill;}",
+              }
+            }
+            data-emotion="css 1x51dt5-MuiInputBase-input-MuiInput-input"
+          />
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiInput-input MuiInputBase-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+            disabled={false}
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Your Email"
+            required={false}
+            type="text"
+            value=""
+          />
+        </div>
+        
+      </div>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-90m5xb-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}@media (min-width:600px){.css-90m5xb-MuiGrid-root{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}}@media (min-width:900px){.css-90m5xb-MuiGrid-root{-webkit-flex-basis:33.333333%;-ms-flex-preferred-size:33.333333%;flex-basis:33.333333%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:33.333333%;}}",
+        }
+      }
+      data-emotion="css 90m5xb-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4 undefined undefined css-90m5xb-MuiGrid-root"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1r7myf2{background-color:#d32f2f;}.css-1r7myf2:hover,.css-1r7myf2:focus{background-color:#c62828;}",
+          }
+        }
+        data-emotion="css 1r7myf2"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-vmm87a-MuiButton-root{font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 8px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#d32f2f;background-color:#d32f2f;}.css-vmm87a-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:rgba(211, 47, 47, 0.04);}@media (hover: none){.css-vmm87a-MuiButton-root:hover{background-color:transparent;}}.css-vmm87a-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);}.css-vmm87a-MuiButton-root:hover,.css-vmm87a-MuiButton-root:focus{background-color:#c62828;}",
+          }
+        }
+        data-emotion="css vmm87a-MuiButton-root"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-u8ku6x-MuiButtonBase-root-MuiButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 8px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#d32f2f;background-color:#d32f2f;}.css-u8ku6x-MuiButtonBase-root-MuiButton-root::-moz-focus-inner{border-style:none;}.css-u8ku6x-MuiButtonBase-root-MuiButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-u8ku6x-MuiButtonBase-root-MuiButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-u8ku6x-MuiButtonBase-root-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:rgba(211, 47, 47, 0.04);}@media (hover: none){.css-u8ku6x-MuiButtonBase-root-MuiButton-root:hover{background-color:transparent;}}.css-u8ku6x-MuiButtonBase-root-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);}.css-u8ku6x-MuiButtonBase-root-MuiButton-root:hover,.css-u8ku6x-MuiButtonBase-root-MuiButton-root:focus{background-color:#c62828;}",
+          }
+        }
+        data-emotion="css u8ku6x-MuiButtonBase-root-MuiButton-root"
+      />
+      <button
+        className="MuiButton-root MuiButton-text MuiButton-textError MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root undefined undefined css-u8ku6x-MuiButtonBase-root-MuiButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        Subscribe
+      </button>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-6v4luz-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}@media (min-width:600px){.css-6v4luz-MuiGrid-root{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}}@media (min-width:900px){.css-6v4luz-MuiGrid-root{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}}",
+        }
+      }
+      data-emotion="css 6v4luz-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 undefined undefined css-6v4luz-MuiGrid-root"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-j204z7-MuiFormControlLabel-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;cursor:pointer;vertical-align:middle;-webkit-tap-highlight-color:transparent;margin-left:-11px;margin-right:16px;}.css-j204z7-MuiFormControlLabel-root.Mui-disabled{cursor:default;}.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label.Mui-disabled{color:rgba(0, 0, 0, 0.38);}",
+          }
+        }
+        data-emotion="css j204z7-MuiFormControlLabel-root"
+      />
+      <label
+        className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-3hqe7a-MuiCheckbox-root{color:rgba(0, 0, 0, 0.6);}.css-3hqe7a-MuiCheckbox-root:hover{background-color:rgba(25, 118, 210, 0.04);}@media (hover: none){.css-3hqe7a-MuiCheckbox-root:hover{background-color:transparent;}}.css-3hqe7a-MuiCheckbox-root.Mui-checked,.css-3hqe7a-MuiCheckbox-root.MuiCheckbox-indeterminate{color:#1976d2;}.css-3hqe7a-MuiCheckbox-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);}",
+            }
+          }
+          data-emotion="css 3hqe7a-MuiCheckbox-root"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-t1665w-MuiCheckbox-root{padding:9px;border-radius:50%;color:rgba(0, 0, 0, 0.6);}.css-t1665w-MuiCheckbox-root:hover{background-color:rgba(25, 118, 210, 0.04);}@media (hover: none){.css-t1665w-MuiCheckbox-root:hover{background-color:transparent;}}.css-t1665w-MuiCheckbox-root.Mui-checked,.css-t1665w-MuiCheckbox-root.MuiCheckbox-indeterminate{color:#1976d2;}.css-t1665w-MuiCheckbox-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);}",
+            }
+          }
+          data-emotion="css t1665w-MuiCheckbox-root"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;padding:9px;border-radius:50%;color:rgba(0, 0, 0, 0.6);}.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root::-moz-focus-inner{border-style:none;}.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root:hover{background-color:rgba(25, 118, 210, 0.04);}@media (hover: none){.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root:hover{background-color:transparent;}}.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate{color:#1976d2;}.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);}",
+            }
+          }
+          data-emotion="css 12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+        />
+        <span
+          className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1m9pwf3{cursor:inherit;position:absolute;opacity:0;width:100%;height:100%;top:0;left:0;margin:0;padding:0;z-index:1;}",
+              }
+            }
+            data-emotion="css 1m9pwf3"
+          />
+          <input
+            checked={false}
+            className="PrivateSwitchBase-input css-1m9pwf3"
+            data-indeterminate={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-i4bv87-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:1.5rem;}",
+              }
+            }
+            data-emotion="css i4bv87-MuiSvgIcon-root"
+          />
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CheckBoxOutlineBlankIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+        </span>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-ahj2mt-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;}",
+            }
+          }
+          data-emotion="css ahj2mt-MuiTypography-root"
+        />
+        <span
+          className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+        >
+          <p>
+            <b>
+              Yes I want to be contacted
+            </b>
+            ,
+             
+            <a
+              href="/privacy"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              privacy
+            </a>
+             applies
+          </p>
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`A Subscribe Section shows a message on button press 1`] = `
+<div>
+  <p>
+    Clone
+     
+    <a
+      href="https://github.com/liebharc/nextjs-mui-starter"
+    >
+      https://github.com/liebharc/nextjs-mui-starter
+    </a>
+     
+    to get started. It's free!
+  </p>
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-11lq3yg-MuiGrid-root{box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;width:100%;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}",
+      }
+    }
+    data-emotion="css 11lq3yg-MuiGrid-root"
+  />
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined undefined undefined  css-11lq3yg-MuiGrid-root"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-1mj1be7-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}@media (min-width:600px){.css-1mj1be7-MuiGrid-root{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}}@media (min-width:900px){.css-1mj1be7-MuiGrid-root{-webkit-flex-basis:66.666667%;-ms-flex-preferred-size:66.666667%;flex-basis:66.666667%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:66.666667%;}}",
+        }
+      }
+      data-emotion="css 1mj1be7-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-8 undefined undefined css-1mj1be7-MuiGrid-root"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1u3bzj6-MuiFormControl-root-MuiTextField-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:relative;min-width:0;padding:0;margin:0;border:0;vertical-align:top;}",
+          }
+        }
+        data-emotion="css 1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      />
+      <div
+        className="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "@-webkit-keyframes mui-auto-fill{from{display:block;}}@keyframes mui-auto-fill{from{display:block;}}@-webkit-keyframes mui-auto-fill-cancel{from{display:block;}}@keyframes mui-auto-fill-cancel{from{display:block;}}",
+            }
+          }
+          data-emotion="css-global 1prfaxn"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-1480iag-MuiInputBase-root-MuiInput-root{font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:1rem;line-height:1.4375em;letter-spacing:0.00938em;color:rgba(0, 0, 0, 0.87);box-sizing:border-box;position:relative;cursor:text;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;}.css-1480iag-MuiInputBase-root-MuiInput-root.Mui-disabled{color:rgba(0, 0, 0, 0.38);cursor:default;}label+.css-1480iag-MuiInputBase-root-MuiInput-root{margin-top:16px;}.css-1480iag-MuiInputBase-root-MuiInput-root:after{border-bottom:2px solid #1976d2;left:0;bottom:0;content:\\"\\";position:absolute;right:0;-webkit-transform:scaleX(0);-moz-transform:scaleX(0);-ms-transform:scaleX(0);transform:scaleX(0);-webkit-transition:-webkit-transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;transition:transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;pointer-events:none;}.css-1480iag-MuiInputBase-root-MuiInput-root.Mui-focused:after{-webkit-transform:scaleX(1);-moz-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1);}.css-1480iag-MuiInputBase-root-MuiInput-root.Mui-error:after{border-bottom-color:#d32f2f;-webkit-transform:scaleX(1);-moz-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1);}.css-1480iag-MuiInputBase-root-MuiInput-root:before{border-bottom:1px solid rgba(0, 0, 0, 0.42);left:0;bottom:0;content:\\"\\\\00a0\\";position:absolute;right:0;-webkit-transition:border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;pointer-events:none;}.css-1480iag-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before{border-bottom:2px solid rgba(0, 0, 0, 0.87);}@media (hover: none){.css-1480iag-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before{border-bottom:1px solid rgba(0, 0, 0, 0.42);}}.css-1480iag-MuiInputBase-root-MuiInput-root.Mui-disabled:before{border-bottom-style:dotted;}",
+            }
+          }
+          data-emotion="css 1480iag-MuiInputBase-root-MuiInput-root"
+        />
+        <div
+          className="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary Mui-error MuiInputBase-formControl css-1480iag-MuiInputBase-root-MuiInput-root"
+          onClick={[Function]}
+        >
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1x51dt5-MuiInputBase-input-MuiInput-input{font:inherit;letter-spacing:inherit;color:currentColor;padding:4px 0 5px;border:0;box-sizing:content-box;background:none;height:1.4375em;margin:0;-webkit-tap-highlight-color:transparent;display:block;min-width:0;width:100%;-webkit-animation-name:mui-auto-fill-cancel;animation-name:mui-auto-fill-cancel;-webkit-animation-duration:10ms;animation-duration:10ms;}.css-1x51dt5-MuiInputBase-input-MuiInput-input::-webkit-input-placeholder{color:currentColor;opacity:0.42;-webkit-transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;}.css-1x51dt5-MuiInputBase-input-MuiInput-input::-moz-placeholder{color:currentColor;opacity:0.42;-webkit-transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;}.css-1x51dt5-MuiInputBase-input-MuiInput-input:-ms-input-placeholder{color:currentColor;opacity:0.42;-webkit-transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;}.css-1x51dt5-MuiInputBase-input-MuiInput-input::-ms-input-placeholder{color:currentColor;opacity:0.42;-webkit-transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;}.css-1x51dt5-MuiInputBase-input-MuiInput-input:focus{outline:0;}.css-1x51dt5-MuiInputBase-input-MuiInput-input:invalid{box-shadow:none;}.css-1x51dt5-MuiInputBase-input-MuiInput-input::-webkit-search-decoration{-webkit-appearance:none;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input::-webkit-input-placeholder{opacity:0!important;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input::-moz-placeholder{opacity:0!important;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input:-ms-input-placeholder{opacity:0!important;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input::-ms-input-placeholder{opacity:0!important;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus::-webkit-input-placeholder{opacity:0.42;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus::-moz-placeholder{opacity:0.42;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus:-ms-input-placeholder{opacity:0.42;}label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus::-ms-input-placeholder{opacity:0.42;}.css-1x51dt5-MuiInputBase-input-MuiInput-input.Mui-disabled{opacity:1;-webkit-text-fill-color:rgba(0, 0, 0, 0.38);}.css-1x51dt5-MuiInputBase-input-MuiInput-input:-webkit-autofill{-webkit-animation-duration:5000s;animation-duration:5000s;-webkit-animation-name:mui-auto-fill;animation-name:mui-auto-fill;}",
+              }
+            }
+            data-emotion="css 1x51dt5-MuiInputBase-input-MuiInput-input"
+          />
+          <input
+            aria-invalid={true}
+            autoFocus={false}
+            className="MuiInput-input MuiInputBase-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+            disabled={false}
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Your Email"
+            required={false}
+            type="text"
+            value=""
+          />
+        </div>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-1d1r5q-MuiFormHelperText-root{color:rgba(0, 0, 0, 0.6);font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:0.75rem;line-height:1.66;letter-spacing:0.03333em;text-align:left;margin-top:3px;margin-right:0;margin-bottom:0;margin-left:0;}.css-1d1r5q-MuiFormHelperText-root.Mui-disabled{color:rgba(0, 0, 0, 0.38);}.css-1d1r5q-MuiFormHelperText-root.Mui-error{color:#d32f2f;}",
+            }
+          }
+          data-emotion="css 1d1r5q-MuiFormHelperText-root"
+        />
+        <p
+          className="MuiFormHelperText-root Mui-error MuiFormHelperText-sizeMedium css-1d1r5q-MuiFormHelperText-root"
+        >
+          We need your consent to contact you
+        </p>
+      </div>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-90m5xb-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}@media (min-width:600px){.css-90m5xb-MuiGrid-root{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}}@media (min-width:900px){.css-90m5xb-MuiGrid-root{-webkit-flex-basis:33.333333%;-ms-flex-preferred-size:33.333333%;flex-basis:33.333333%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:33.333333%;}}",
+        }
+      }
+      data-emotion="css 90m5xb-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4 undefined undefined css-90m5xb-MuiGrid-root"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1r7myf2{background-color:#d32f2f;}.css-1r7myf2:hover,.css-1r7myf2:focus{background-color:#c62828;}",
+          }
+        }
+        data-emotion="css 1r7myf2"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-vmm87a-MuiButton-root{font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 8px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#d32f2f;background-color:#d32f2f;}.css-vmm87a-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:rgba(211, 47, 47, 0.04);}@media (hover: none){.css-vmm87a-MuiButton-root:hover{background-color:transparent;}}.css-vmm87a-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);}.css-vmm87a-MuiButton-root:hover,.css-vmm87a-MuiButton-root:focus{background-color:#c62828;}",
+          }
+        }
+        data-emotion="css vmm87a-MuiButton-root"
+      />
+      <button
+        className="MuiButton-root MuiButton-text MuiButton-textError MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root undefined undefined css-u8ku6x-MuiButtonBase-root-MuiButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        Subscribe
+        <span
+          className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-6v4luz-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}@media (min-width:600px){.css-6v4luz-MuiGrid-root{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}}@media (min-width:900px){.css-6v4luz-MuiGrid-root{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}}",
+        }
+      }
+      data-emotion="css 6v4luz-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 undefined undefined css-6v4luz-MuiGrid-root"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-j204z7-MuiFormControlLabel-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;cursor:pointer;vertical-align:middle;-webkit-tap-highlight-color:transparent;margin-left:-11px;margin-right:16px;}.css-j204z7-MuiFormControlLabel-root.Mui-disabled{cursor:default;}.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label.Mui-disabled{color:rgba(0, 0, 0, 0.38);}",
+          }
+        }
+        data-emotion="css j204z7-MuiFormControlLabel-root"
+      />
+      <label
+        className="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-3hqe7a-MuiCheckbox-root{color:rgba(0, 0, 0, 0.6);}.css-3hqe7a-MuiCheckbox-root:hover{background-color:rgba(25, 118, 210, 0.04);}@media (hover: none){.css-3hqe7a-MuiCheckbox-root:hover{background-color:transparent;}}.css-3hqe7a-MuiCheckbox-root.Mui-checked,.css-3hqe7a-MuiCheckbox-root.MuiCheckbox-indeterminate{color:#1976d2;}.css-3hqe7a-MuiCheckbox-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);}",
+            }
+          }
+          data-emotion="css 3hqe7a-MuiCheckbox-root"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-t1665w-MuiCheckbox-root{padding:9px;border-radius:50%;color:rgba(0, 0, 0, 0.6);}.css-t1665w-MuiCheckbox-root:hover{background-color:rgba(25, 118, 210, 0.04);}@media (hover: none){.css-t1665w-MuiCheckbox-root:hover{background-color:transparent;}}.css-t1665w-MuiCheckbox-root.Mui-checked,.css-t1665w-MuiCheckbox-root.MuiCheckbox-indeterminate{color:#1976d2;}.css-t1665w-MuiCheckbox-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);}",
+            }
+          }
+          data-emotion="css t1665w-MuiCheckbox-root"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;padding:9px;border-radius:50%;color:rgba(0, 0, 0, 0.6);}.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root::-moz-focus-inner{border-style:none;}.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root:hover{background-color:rgba(25, 118, 210, 0.04);}@media (hover: none){.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root:hover{background-color:transparent;}}.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate{color:#1976d2;}.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);}",
+            }
+          }
+          data-emotion="css 12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+        />
+        <span
+          className="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1m9pwf3{cursor:inherit;position:absolute;opacity:0;width:100%;height:100%;top:0;left:0;margin:0;padding:0;z-index:1;}",
+              }
+            }
+            data-emotion="css 1m9pwf3"
+          />
+          <input
+            checked={false}
+            className="PrivateSwitchBase-input css-1m9pwf3"
+            data-indeterminate={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-i4bv87-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:1.5rem;}",
+              }
+            }
+            data-emotion="css i4bv87-MuiSvgIcon-root"
+          />
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CheckBoxOutlineBlankIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-8je8zh-MuiTouchRipple-root{overflow:hidden;pointer-events:none;position:absolute;z-index:0;top:0;right:0;bottom:0;left:0;border-radius:inherit;}",
+              }
+            }
+            data-emotion="css 8je8zh-MuiTouchRipple-root"
+          />
+          <span
+            className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </span>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-ahj2mt-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;}",
+            }
+          }
+          data-emotion="css ahj2mt-MuiTypography-root"
+        />
+        <span
+          className="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+        >
+          <p>
+            <b>
+              Yes I want to be contacted
+            </b>
+            ,
+             
+            <a
+              href="/privacy"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              privacy
+            </a>
+             applies
+          </p>
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
+`;

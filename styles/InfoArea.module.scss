@@ -1,0 +1,66 @@
+@import 'semantic.scss';
+
+.infoArea {
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.infoAreaHori {
+    @include divRow();
+}
+
+.iconWrapper {
+    @include alignContentCenter();
+    margin-right: 10px;
+}
+
+.iconWrapperVertical {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 44px;
+    height: 44px;
+}
+
+.imageLimits {
+    max-width: 250px;
+}
+
+.descriptionWrapper {
+    overflow: hidden;
+}
+
+.iconVertical {
+    width: 61px;
+    height: 61px;
+    min-width: 61px;
+    min-height: 61px;
+}
+
+.title {
+    overflow: hidden;
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+.description {
+    overflow: hidden;
+    text-align: left;
+    margin-top: 0px;
+    @include descriptionFontSize();
+}
+
+.descriptionVertical {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.lightText {
+    @include lightText();
+}

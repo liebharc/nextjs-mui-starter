@@ -1,0 +1,40 @@
+@import './semantic.scss';
+
+.icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 3px;
+}
+
+.footer {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.block {
+    color: inherit;
+    padding: 0.9375rem;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+
+.list {
+    margin-bottom: 0%;
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+    @include alignContentCenter();
+}
+
+.inlineBlock {
+    display: inline-block;
+    padding: 0px;
+    width: auto;
+}

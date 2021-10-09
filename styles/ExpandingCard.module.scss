@@ -1,0 +1,16 @@
+@import 'semantic.scss';
+@import 'colors.scss';
+
+.expandingCard {
+    background-color: $sectionBackground;
+    margin: 10px;
+}
+
+.expandingCardHeader {
+    @include divRow();
+    @include alignContentCenter();
+}
+
+.expandingCardContent {
+    background-color: $whiteText;
+}

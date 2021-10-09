@@ -1,0 +1,41 @@
+@import 'semantic.scss';
+@import 'colors.scss';
+
+.mainContent {
+    text-align: center;
+    width: 100%;
+}
+
+.centeredSection {
+    @include limitMainContentWidth();
+    @include stretch();
+    @include pagePadding();
+}
+
+.firstSection {
+    margin-top: 200px;
+    @include alignContentCenter();
+}
+
+.newSection {
+    margin-top: 200px;
+    @include alignContentCenter();
+}
+
+.newSectionColored {
+    background-color: $sectionBackground;
+    width: 100%;
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    @include alignContentCenter();
+}
+
+.lastSection {
+    @include alignContentCenter();
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+.subscribeSection {
+    margin-top: 200px;
+}

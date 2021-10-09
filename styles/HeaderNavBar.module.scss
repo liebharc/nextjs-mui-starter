@@ -1,0 +1,106 @@
+@import 'semantic.scss';
+@import 'colors.scss';
+
+$overlap: 100px;
+
+.headerBackground {
+    height: calc(100vh + $overlap);
+    margin: 0 0 calc(0px - $overlap) 0;
+    @include headerBackgroundGradient();
+    @include stretchHorz();
+}
+
+.shortHeader {
+    height: 75px;
+    max-height: 75px;
+    margin: $navbarHeight 0 calc(0px - $overlap) 0;
+    @include headerBackground();
+    @include alignContentCenterHorz();
+    @include stretchHorz();
+}
+.headingCell {
+    @include alginContentBottom();
+}
+
+.heading {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    @include stretchHorz();
+}
+
+.description {
+    text-align: center;
+    @include descriptionFontSize();
+}
+
+.headerContent {
+    @media (min-width: $sm) {
+        max-width: calc($sm - 60px);
+    }
+    @media (min-width: $md) {
+        max-width: calc($md - 60px);
+    }
+    @media (min-width: $lg) {
+        max-width: calc($lg - 60px);
+    }
+
+    height: 100vh;
+}
+
+.emotionImage {
+    @include imgRaised();
+    @include imgRoundedCircle();
+    @include imgFluid();
+}
+
+.subscribeSection {
+    margin-top: 50px;
+}
+
+.joinButton {
+    text-align: center;
+    margin: 20px;
+}
+
+.navbar {
+    @include stretchHorz();
+    @include divRow();
+    height: $navbarHeight;
+    @include headerBackground();
+    position: fixed;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.headerNavbar {
+    @include stretchHorz();
+    @include divRow();
+    @include alignContentLeft();
+    padding-left: 10px;
+    padding-right: 10px;
+    height: $navbarHeight;
+    z-index: 1030;
+}
+
+.brand {
+    font-family: 'Roboto Slab', 'Times New Roman', serif;
+}
+
+.homeLink {
+    @include noLinkDecoration();
+    white-space: nowrap;
+}
+
+.navbarLinks {
+    height: $navbarHeight;
+    max-height: $navbarHeight;
+    @include stretchHorz();
+    @include alignContentCenter();
+    @include alignContentRight();
+    @include descriptionFontSize();
+    white-space: nowrap;
+}

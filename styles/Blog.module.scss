@@ -1,0 +1,75 @@
+@import 'semantic.scss';
+@import 'colors.scss';
+
+.mainContent {
+    @include stretch();
+    @include alignContentCenterHorz();
+    min-height: calc(100vh - $navbarHeight);
+}
+
+.centeredSection {
+    @include limitMainContentWidth();
+    @include stretch();
+    @include pagePadding();
+    text-align: left;
+}
+
+.postSection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.postTitle {
+    @include noLinkDecoration();
+    font-weight: 1000;
+    font-size: 36px;
+}
+
+.coverImage {
+    margin-top: 30px;
+}
+
+.postMetaInfo {
+    @include lightColorText();
+    font-size: 12px;
+}
+
+$socialsWidth: 50px;
+
+.allPostsContainer {
+    @include divRow();
+    @include stretch();
+    text-align: left;
+    position: relative;
+    padding-right: calc($socialsWidth);
+}
+
+.socialsPositioner {
+    position: absolute;
+    right: calc($socialsWidth);
+}
+
+.socialsContainer {
+    width: $socialsWidth;
+    position: fixed;
+    top: calc($navbarHeight + 100px);
+}
+
+.postMetaInfoSep {
+    border: 1px solid $lightColorText;
+}
+
+.block {
+    color: inherit;
+    padding: 0.9375rem;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    position: relative;
+    display: block;
+}
+
+.showTwitter {
+    text-align: center;
+}

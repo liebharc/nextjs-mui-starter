@@ -1,0 +1,18 @@
+$headerBackground: #ffc65d;
+$sectionBackground: #e6f4f1;
+@mixin headerBackground() {
+    background: $headerBackground;
+}
+@mixin headerBackgroundGradient() {
+    background: linear-gradient($headerBackground 0%, #ff8f7a 100%);
+}
+
+$whiteText: #fafafa;
+@mixin whiteColorText() {
+    color: $whiteText;
+}
+
+$lightColorText: #aaaaaa;
+@mixin lightColorText {
+    color: $lightColorText;
+}

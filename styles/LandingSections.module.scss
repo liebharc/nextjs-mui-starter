@@ -1,0 +1,21 @@
+@import 'semantic.scss';
+@import 'colors.scss';
+
+.newSection {
+    margin-top: 50px;
+}
+
+.socials {
+    color: #999;
+    margin: 0px;
+    min-height: 24px;
+    min-width: 24px;
+    height: 24px;
+    width: 24px;
+}
+
+.faces {
+    @include imgRaised();
+    @include imgRoundedCircle();
+    @include imgFluid();
+}

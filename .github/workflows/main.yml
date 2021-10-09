@@ -1,0 +1,83 @@
+name: CI
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Setup Node.js environment
+              uses: actions/setup-node@v2.4.0
+
+            - name: Install
+              run: npm install
+
+            - name: Build blog content
+              run: npm run build:content
+
+            - name: Lint
+              run: npm run lint
+
+            - name: Test
+              run: npm test
+
+    cypress-run:
+        runs-on: ubuntu-20.04
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            - name: Install
+              run: npm install
+
+            - name: Build
+              run: npm run build
+
+            - name: Install pm2
+              run: npm install pm2
+
+            - name: Install wait-on
+              run: npm install wait-on
+
+            - name: Install mochawesome
+              run: npm install --verbose mocha mochawesome mochawesome-merge mochawesome-report-generator
+
+            - name: Start async
+              run: npx pm2 start npm -- start
+
+            - name: Wait to get startup logs
+              run: sleep 10
+
+            - name: Get startup logs
+              run: npx pm2 logs 0 --nostream --lines 100
+
+            - name: Wait for server to fully start
+              run: npx wait-on http://localhost:3000 -t 60000
+
+            - name: Cypress run
+              uses: cypress-io/github-action@v2
+
+            - name: Stop server
+              if: always()
+              run: npx pm2 kill
+
+            - uses: actions/upload-artifact@v1
+              if: failure()
+              with:
+                  name: cypress-screenshots
+                  path: cypress/screenshots
+
+            - uses: actions/upload-artifact@v1
+              if: always()
+              with:
+                  name: cypress-videos
+                  path: cypress/videos

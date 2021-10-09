@@ -1,0 +1,141 @@
+@import 'semantic/images.scss';
+
+$navbarHeight: 50px;
+
+$xs: 0px;
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+
+@mixin lightText() {
+    color: gray;
+}
+
+.lightText {
+    @include lightText();
+}
+
+@mixin stretchHorz() {
+    width: 100%;
+}
+
+.stretchHorz {
+    @include stretchHorz();
+}
+
+@mixin stretchVert() {
+    height: 100%;
+}
+
+.stretchVert {
+    @include stretchVert();
+}
+
+@mixin stretch() {
+    @include stretchHorz();
+    @include stretchVert();
+}
+
+.stretch {
+    @include stretch();
+}
+
+@mixin alignContentCenter() {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+@mixin alignContentRight() {
+    text-align: right;
+    justify-content: right;
+    display: flex;
+}
+
+@mixin alignContentLeft() {
+    text-align: left;
+    justify-content: left;
+    display: flex;
+}
+
+@mixin alignContentCenterHorz() {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin alignContentCenterVert() {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@mixin alginContentBottom() {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+
+@mixin alginContentTop() {
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+@mixin limitMainContentWidth() {
+    max-width: 940px;
+}
+
+@mixin noLinkDecoration() {
+    color: inherit;
+    text-decoration: none;
+}
+
+@mixin pagePadding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.alignContentCenter {
+    @include alignContentCenter();
+}
+
+.alignContentLeft {
+    @include alignContentLeft();
+}
+
+.alignContentRight {
+    @include alignContentRight();
+}
+
+@mixin divRow() {
+    @include alignContentCenter();
+    position: relative;
+    display: flex;
+    flex-flow: 'row';
+}
+
+.divRow {
+    @include divRow();
+}
+
+@mixin descriptionFontSize() {
+    font-size: 18px;
+}
+
+.description {
+    @include descriptionFontSize();
+}
+
+@mixin teaserFontSize() {
+    font-size: 18px;
+}
+
+.teaser {
+    font-size: 21px;
+}
+
+.navbarLink {
+    @include noLinkDecoration();
+    margin: 10px;
+}
