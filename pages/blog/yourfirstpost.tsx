@@ -50,6 +50,9 @@ const BlogEntry: NextPage = () => {
                                 alt={post.title}
                                 width="800"
                                 height="533"
+                                style={{
+                                    objectFit: 'contain',
+                                }}
                             />
                             <p className={styles.postMetaInfo}>
                                 {post.pictureAttribution}

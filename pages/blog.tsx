@@ -49,6 +49,9 @@ const Blog: NextPage = () => {
                                                     alt={post.title}
                                                     width="800"
                                                     height="533"
+                                                    style={{
+                                                        objectFit: 'contain',
+                                                    }}
                                                 />
                                             </a>
                                         </div>
