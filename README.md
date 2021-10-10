@@ -3,6 +3,7 @@
 Build status:
 
 -   Main: [![CI](https://github.com/liebharc/nextjs-mui-starter/workflows/CI/badge.svg?branch=main)](https://github.com/liebharc/nextjs-mui-starter/actions)
+-   Demo: (https://liebharc.github.io/nextjs-mui-starter/)[https://liebharc.github.io/nextjs-mui-starter/].
 
 ## Features
 
@@ -16,6 +17,8 @@ This starter project offers:
 -   Unit Test (Jest) and Integration Test (Cypress) are setup
 -   Linter and prettier are configured
 -   Setup for sitemaps, hardened HTTP headers
+
+A live demo can be found at (https://liebharc.github.io/nextjs-mui-starter/)[https://liebharc.github.io/nextjs-mui-starter/].
 
 ## License
 
