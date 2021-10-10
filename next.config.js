@@ -1,6 +1,6 @@
 /* eslint-disable */
 /** @type {import('next').NextConfig} */
-8
+
 const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
 const { createSecureHeaders } = require('next-secure-headers')
 
