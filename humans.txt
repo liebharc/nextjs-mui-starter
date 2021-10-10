@@ -1,0 +1,35 @@
+/* TEAM */
+    Your Role: Your name
+    
+/* THANKS */    							
+    Name: https://github.com/emotion-js/emotion/tree/main/packages/react
+    Name: https://github.com/fontsource/fontsource
+    Name: https://github.com/mui-org/material-ui
+    Name: https://github.com/reduxjs/redux-toolkit
+    Name: https://github.com/axios/axios
+    Name: https://github.com/JedWatson/classnames
+    Name: https://github.com/zloirock/core-js
+    Name: https://github.com/motdotla/dotenv
+    Name: https://github.com/moment/luxon
+    Name: https://vercel.com
+    Name: https://github.com/facebook/react
+    Name: https://github.com/CookPete/react-player
+    Name: https://github.com/reduxjs/react-redux
+    Name: https://github.com/fisshy/react-scroll
+    Name: https://github.com/sass/dart-sass
+    Name: https://github.com/lovell/sharp
+    Name: https://github.com/styled-components/styled-components
+    Name: https://github.com/uuidjs/uuid
+    Name: https://github.com/babel/babel
+    Name: https://github.com/ant-design/babel-plugin-import
+    Name: https://github.com/Microsoft/TypeScript
+    Name: https://github.com/cypress-io/cypress
+    Name: https://github.com/eslint/eslint
+    Name: https://github.com/facebook/jest
+    Name: https://github.com/jagaapple/next-secure-headers
+    Name: https://github.com/iamvishnusankar/next-sitemap
+    Name: https://www.npmjs.com/package/processmd
+                                
+/* SITE */
+    Language: English
+    IDE: VS Code
