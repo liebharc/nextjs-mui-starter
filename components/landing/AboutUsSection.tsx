@@ -36,7 +36,7 @@ const AboutUsSection: FC = () => {
                         }
                         icon={
                             <img
-                                src="img/faces/corset-g2b91c962f_1280.jpg"
+                                src="nextjs-mui-starter/img/faces/corset-g2b91c962f_1280.jpg"
                                 className={styles.faces}
                                 height="1280"
                                 width="960"
@@ -59,7 +59,7 @@ const AboutUsSection: FC = () => {
                         }
                         icon={
                             <img
-                                src="img/faces/woman-g53aebefef_1920.jpg"
+                                src="nextjs-mui-starter/img/faces/woman-g53aebefef_1920.jpg"
                                 className={styles.faces}
                                 height="1280"
                                 width="960"

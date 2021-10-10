@@ -34,7 +34,7 @@ const Blog: NextPage = () => {
                                     {post.picture ? (
                                         <div className={styles.coverImage}>
                                             <a
-                                                href={`/blog/${encodeURIComponent(
+                                                href={`/nextjs-mui-starter/blog/${encodeURIComponent(
                                                     post.base.replace(
                                                         '.json',
                                                         ''
@@ -42,7 +42,10 @@ const Blog: NextPage = () => {
                                                 )}`}
                                             >
                                                 <img
-                                                    src={post.picture}
+                                                    src={
+                                                        '/nextjs-mui-starter' +
+                                                        post.picture
+                                                    }
                                                     alt={post.title}
                                                     width="1280"
                                                     height="860"

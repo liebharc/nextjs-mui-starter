@@ -46,7 +46,7 @@ const BlogEntry: NextPage = () => {
                     {post.picture ? (
                         <div className={styles.coverImage}>
                             <img
-                                src={post.picture}
+                                src={'/nextjs-mui-starter' + post.picture}
                                 alt={post.title}
                                 width="1280"
                                 height="860"
