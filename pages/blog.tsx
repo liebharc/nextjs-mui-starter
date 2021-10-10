@@ -4,7 +4,6 @@ import React from 'react'
 import Page from '../components/Page'
 import { literals } from '../src/ui/Literals'
 import styles from '../styles/Blog.module.scss'
-import Image from 'next/image'
 
 import summaries from '../content/summary.json'
 import { formatPostDate, parsePostDate } from '../src/ui/Blog'
@@ -42,12 +41,11 @@ const Blog: NextPage = () => {
                                                     )
                                                 )}`}
                                             >
-                                                <Image
+                                                <img
                                                     src={post.picture}
                                                     alt={post.title}
                                                     width="1280"
                                                     height="860"
-                                                    layout="intrinsic"
                                                 />
                                             </a>
                                         </div>

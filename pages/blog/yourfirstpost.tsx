@@ -1,4 +1,4 @@
-import type { GetServerSideProps, NextPage } from 'next'
+import type { NextPage } from 'next'
 import React from 'react'
 
 import Page from '../../components/Page'
@@ -7,43 +7,10 @@ import styles from '../../styles/Blog.module.scss'
 import Link from 'next/link'
 import { formatPostDate } from '../../src/ui/Blog'
 import { Mail, Twitter } from '@mui/icons-material'
-import Image from 'next/image'
 import { literals } from '../../src/ui/Literals'
-import { defaultErrorHandler } from '../../src/ui/DefaultErrorHandler'
+import post from '../../content/yourfirstpost.json'
 
-interface Post {
-    title: string
-    date: string
-    preview: string
-    bodyHtml: string
-    tags: string
-    picture: string
-    pictureAttribution: string
-}
-interface Props {
-    post?: Post
-}
-
-export const getServerSideProps: GetServerSideProps = async (context) => {
-    const urlParts = context.resolvedUrl.split('/')
-    const lastUrlPart = urlParts[urlParts.length - 1]
-    return import(`../../content/${lastUrlPart}.json`)
-        .then((d) => {
-            return {
-                props: {
-                    post: d.default as Post,
-                },
-            }
-        })
-        .catch((e) => {
-            defaultErrorHandler(e)
-            return {
-                props: {},
-            }
-        })
-}
-
-const BlogEntry: NextPage<Props> = ({ post }) => {
+const BlogEntry: NextPage = () => {
     if (!post) {
         return <ErrorPage statusCode={404} />
     }
@@ -78,12 +45,11 @@ const BlogEntry: NextPage<Props> = ({ post }) => {
                 <div className={styles.centeredSection}>
                     {post.picture ? (
                         <div className={styles.coverImage}>
-                            <Image
+                            <img
                                 src={post.picture}
                                 alt={post.title}
                                 width="1280"
                                 height="860"
-                                layout="intrinsic"
                             />
                             <p className={styles.postMetaInfo}>
                                 {post.pictureAttribution}
