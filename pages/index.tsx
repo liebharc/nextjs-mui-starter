@@ -62,7 +62,10 @@ const Landing: NextPage = () => {
                         </Link>
                     </div>
                 ) : null}
-                <Link href="/blog" className={styles.navbarLink}>
+                <Link
+                    href="/nextjs-mui-starter/blog"
+                    className={styles.navbarLink}
+                >
                     Blog
                 </Link>
             </div>

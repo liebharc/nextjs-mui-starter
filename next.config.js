@@ -16,6 +16,8 @@ module.exports = (phase) => {
     return {
         reactStrictMode: true,
         compress: true,
+        basePath: '/nextjs-mui-starter',
+        assetPrefix: '/nextjs-mui-starter',
         images: {
             // These are the values documented by Material UI: https://mui.com/customization/breakpoints/
             deviceSizes: [600, 900, 1200, 1536],
