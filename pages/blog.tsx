@@ -59,7 +59,7 @@ const Blog: NextPage = () => {
                                     <div>
                                         <a
                                             className={styles.postTitle}
-                                            href={`/blog/${encodeURIComponent(
+                                            href={`/nextjs-mui-starter/blog/${encodeURIComponent(
                                                 post.base.replace('.json', '')
                                             )}`}
                                         >
@@ -77,7 +77,7 @@ const Blog: NextPage = () => {
                                     </div>
                                     <p>{post.preview + ' ...'}</p>
                                     <a
-                                        href={`/blog/${encodeURIComponent(
+                                        href={`/nextjs-mui-starter/blog/${encodeURIComponent(
                                             post.base.replace('.json', '')
                                         )}`}
                                     >
