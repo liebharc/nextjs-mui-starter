@@ -48,8 +48,8 @@ const BlogEntry: NextPage = () => {
                             <img
                                 src={'/nextjs-mui-starter' + post.picture}
                                 alt={post.title}
-                                width="1280"
-                                height="860"
+                                width="800"
+                                height="533"
                             />
                             <p className={styles.postMetaInfo}>
                                 {post.pictureAttribution}

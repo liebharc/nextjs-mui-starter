@@ -47,8 +47,8 @@ const Blog: NextPage = () => {
                                                         post.picture
                                                     }
                                                     alt={post.title}
-                                                    width="1280"
-                                                    height="860"
+                                                    width="800"
+                                                    height="533"
                                                 />
                                             </a>
                                         </div>
