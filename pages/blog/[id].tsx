@@ -25,9 +25,13 @@ interface Props {
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-    const urlParts = context.resolvedUrl.split('/')
-    const lastUrlPart = urlParts[urlParts.length - 1]
-    return import(`../../content/${lastUrlPart}.json`)
+    if (!context.params || !context.params['id']) {
+        return {
+            props: {},
+        }
+    }
+    const postId = context.params['id']
+    return import(`../../content/${postId}.json`)
         .then((d) => {
             return {
                 props: {
